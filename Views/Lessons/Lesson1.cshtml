@@ -1,0 +1,89 @@
+﻿@model List<SqlLearningApp.Models.Book>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Типи баз даних: реляційні та нереляційні</title>
+    <link rel="stylesheet" href="~/css/lesson.css" />
+</head>
+<body>
+    <div class="lesson-container">
+        <h1 class="lesson-title">Типи баз даних: реляційні та нереляційні</h1>
+        <p class="lesson-description">Конспект уроку (потім додам)</p>
+
+        <div class="task">
+            <h3 class="task-title">Завдання</h3>
+            <p class="task-description">
+                Напишіть SQL-запит для отримання <strong>назв</strong> усіх книжок із таблиці "Book".
+            </p>
+            <textarea id="query-input" class="query-input" placeholder="Введіть SQL-запит сюди"></textarea>
+            <button id="run-query" class="run-query-btn">Виконати запит</button>
+        </div>
+
+        <div class="table-container">
+            <h3 class="table-title">Дані таблиці "Book"</h3>
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Назва</th>
+                        <th>Опис</th>
+                        <th>Ціна</th>
+                        <th>Автор</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var book in Model)
+                    {
+                        <tr>
+                            <td>@book.Id</td>
+                            <td>@book.Title</td>
+                            <td class="description-cell">@book.Description</td>
+                            <td>@book.Price</td>
+                            <td>@book.Author</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div id="query-result" class="result-container">
+            <h3 class="result-title">Результат виконання</h3>
+            <pre id="result-output" class="result-output"></pre>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    document.getElementById('run-query').addEventListener('click', function () {
+        const query = document.getElementById('query-input').value;
+
+        fetch('/api/run-sql-query', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ query })
+        })
+        .then(response => response.json())
+        .then(data => {
+            const resultOutput = document.getElementById('result-output');
+            if (data.success) {
+                if (data.isCorrect) {
+                    resultOutput.textContent = "Ваш запит правильний!";
+                } else {
+                    resultOutput.textContent = "Ваш запит неправильний. Спробуйте ще раз.";
+                }
+                console.log("Результат виконання:", data.result);
+            } else {
+                resultOutput.textContent = `Помилка: ${data.error}`;
+            }
+        })
+        .catch(error => {
+            document.getElementById('result-output').textContent = `Сталася помилка: ${error}`;
+        });
+    });
+</script>
+
+
+

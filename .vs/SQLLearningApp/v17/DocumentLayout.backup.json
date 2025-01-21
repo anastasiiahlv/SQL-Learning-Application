@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\univ\\SQL Learning Application\\SQLLearningApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24FD5D88-EC57-48F3-9D8A-98F55A971070}|SQLLearningApp.csproj|c:\\users\\user\\desktop\\univ\\sql learning application\\sqllearningapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{24FD5D88-EC57-48F3-9D8A-98F55A971070}|SQLLearningApp.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24FD5D88-EC57-48F3-9D8A-98F55A971070}|SQLLearningApp.csproj|c:\\users\\user\\desktop\\univ\\sql learning application\\sqllearningapp\\wwwroot\\css\\lesson.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{24FD5D88-EC57-48F3-9D8A-98F55A971070}|SQLLearningApp.csproj|solutionrelative:wwwroot\\css\\lesson.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24FD5D88-EC57-48F3-9D8A-98F55A971070}|SQLLearningApp.csproj|c:\\users\\user\\desktop\\univ\\sql learning application\\sqllearningapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24FD5D88-EC57-48F3-9D8A-98F55A971070}|SQLLearningApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24FD5D88-EC57-48F3-9D8A-98F55A971070}|SQLLearningApp.csproj|c:\\users\\user\\desktop\\univ\\sql learning application\\sqllearningapp\\views\\lessons\\lesson1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24FD5D88-EC57-48F3-9D8A-98F55A971070}|SQLLearningApp.csproj|solutionrelative:views\\lessons\\lesson1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24FD5D88-EC57-48F3-9D8A-98F55A971070}|SQLLearningApp.csproj|c:\\users\\user\\desktop\\univ\\sql learning application\\sqllearningapp\\controllers\\sqlexercisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24FD5D88-EC57-48F3-9D8A-98F55A971070}|SQLLearningApp.csproj|solutionrelative:controllers\\sqlexercisescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24FD5D88-EC57-48F3-9D8A-98F55A971070}|SQLLearningApp.csproj|c:\\users\\user\\desktop\\univ\\sql learning application\\sqllearningapp\\controllers\\lessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24FD5D88-EC57-48F3-9D8A-98F55A971070}|SQLLearningApp.csproj|solutionrelative:controllers\\lessonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lesson.css",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\univ\\SQL Learning Application\\SQLLearningApp\\wwwroot\\css\\lesson.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\lesson.css",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\univ\\SQL Learning Application\\SQLLearningApp\\wwwroot\\css\\lesson.css",
+              "RelativeToolTip": "wwwroot\\css\\lesson.css",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-21T16:39:28.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\univ\\SQL Learning Application\\SQLLearningApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\univ\\SQL Learning Application\\SQLLearningApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-12T14:46:42.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SqlExercisesController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\univ\\SQL Learning Application\\SQLLearningApp\\Controllers\\SqlExercisesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SqlExercisesController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\univ\\SQL Learning Application\\SQLLearningApp\\Controllers\\SqlExercisesController.cs",
+              "RelativeToolTip": "Controllers\\SqlExercisesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T13:51:17.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LessonsController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\univ\\SQL Learning Application\\SQLLearningApp\\Controllers\\LessonsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LessonsController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\univ\\SQL Learning Application\\SQLLearningApp\\Controllers\\LessonsController.cs",
+              "RelativeToolTip": "Controllers\\LessonsController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T13:50:17.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Lesson1.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\univ\\SQL Learning Application\\SQLLearningApp\\Views\\Lessons\\Lesson1.cshtml",
+              "RelativeDocumentMoniker": "Views\\Lessons\\Lesson1.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\univ\\SQL Learning Application\\SQLLearningApp\\Views\\Lessons\\Lesson1.cshtml",
+              "RelativeToolTip": "Views\\Lessons\\Lesson1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T13:49:58.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\univ\\SQL Learning Application\\SQLLearningApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\univ\\SQL Learning Application\\SQLLearningApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-12T14:43:00.871Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
