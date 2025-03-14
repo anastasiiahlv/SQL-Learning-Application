@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SQLLearningApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+410edc5f7cc4601ed91129dcf7d318a6bb724972")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d24ac3049935300b5bfbafdd3814d9dca08a6181")]
 [assembly: System.Reflection.AssemblyProductAttribute("SQLLearningApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SQLLearningApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,28 +1,28 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/SQLLearningApp/css/lesson.3zdkun8gdk.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\lesson.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3zdkun8gdk"},{"Name":"integrity","Value":"sha256-v52dQxro4PF/89GCvAEaqrQbK0gq6LggLvD3ukrfBOw="},{"Name":"label","Value":"_content/SQLLearningApp/css/lesson.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3101"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022v52dQxro4PF/89GCvAEaqrQbK0gq6LggLvD3ukrfBOw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 22 Jan 2025 22:19:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SQLLearningApp/css/lesson.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\lesson.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BTzp5KPKqsBekveWp9WQCsyWVqLSqJvUzcrWYRdX/28="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2598"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022BTzp5KPKqsBekveWp9WQCsyWVqLSqJvUzcrWYRdX/28=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 16:40:46 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/SQLLearningApp/css/lesson.x1cgb8x6kt.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\lesson.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x1cgb8x6kt"},{"Name":"integrity","Value":"sha256-BTzp5KPKqsBekveWp9WQCsyWVqLSqJvUzcrWYRdX/28="},{"Name":"label","Value":"_content/SQLLearningApp/css/lesson.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2598"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022BTzp5KPKqsBekveWp9WQCsyWVqLSqJvUzcrWYRdX/28=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 16:40:46 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/SQLLearningApp/css/site.846r1ai5y3.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"846r1ai5y3"},{"Name":"integrity","Value":"sha256-SD8kzZN1dJnOLWjXZlTpDWkoZkHoNIf0fGQDEN9q3kE="},{"Name":"label","Value":"_content/SQLLearningApp/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2811"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SD8kzZN1dJnOLWjXZlTpDWkoZkHoNIf0fGQDEN9q3kE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 17:09:49 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-v52dQxro4PF/89GCvAEaqrQbK0gq6LggLvD3ukrfBOw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3101"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022v52dQxro4PF/89GCvAEaqrQbK0gq6LggLvD3ukrfBOw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 22 Jan 2025 22:19:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SQLLearningApp/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SD8kzZN1dJnOLWjXZlTpDWkoZkHoNIf0fGQDEN9q3kE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2811"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022SD8kzZN1dJnOLWjXZlTpDWkoZkHoNIf0fGQDEN9q3kE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 21 Jan 2025 17:09:49 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7iz1swMy09hvJJWs7oygeiiahY/j05rbULoN0VWqSYI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2812"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227iz1swMy09hvJJWs7oygeiiahY/j05rbULoN0VWqSYI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 23 Jan 2025 23:49:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SQLLearningApp/css/site.marzc77t7k.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"marzc77t7k"},{"Name":"integrity","Value":"sha256-7iz1swMy09hvJJWs7oygeiiahY/j05rbULoN0VWqSYI="},{"Name":"label","Value":"_content/SQLLearningApp/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2812"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227iz1swMy09hvJJWs7oygeiiahY/j05rbULoN0VWqSYI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 23 Jan 2025 23:49:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SQLLearningApp/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

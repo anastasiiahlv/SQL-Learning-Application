@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K5LSUeaZhzw=",
+  "dgSpecHash": "80DZhOkY4oM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\univ\\SQL Learning Application\\SQLLearningApp\\SQLLearningApp.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\SQLLearningApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
