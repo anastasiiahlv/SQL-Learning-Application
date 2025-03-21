@@ -1,70 +1,22 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - SQLLearningApp</title>
+    <title>@ViewData["Title"] - SQLCodex</title>
     <script type="importmap"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
+        <!-- Навігаційна панель -->
         <header class="navigation-bar">
             <nav class="navbar">
                 <div class="container-fluid">
                     <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SQLCodex</a>
                     <ul class="nav-links">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle">Уроки</a>
-                            <ul class="dropdown-menu">
-
-                                <li class="dropdown-header">Розділ 1. Вступ до баз даних та SQL</li>
-                                <li><a asp-controller="Lessons" asp-action="Lesson1">Вступ до баз даних</a></li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="3">Основні поняття реляційних баз даних</a></li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="4">Нормалізація баз даних</a></li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="5">Основи SQL</a></li>
-
-                                <li class="dropdown-divider"></li>
-
-                                <li class="dropdown-header">Розділ 2. Робота з даними</li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="7">Базовий оператор запиту: SELECT</a></li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="8">Фільтрація даних: WHERE, оператори</a></li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="9">Пошук за шаблоном: оператор LIKE</a></li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="10">Сортування результатів: ORDER BY</a></li>
-
-                                <li class="dropdown-divider"></li>
-
-                                <li class="dropdown-header">Розділ 3. Маніпуляції з даними</li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="12">Додавання даних: INSERT INTO</a></li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="13">Оновлення даних: UPDATE</a></li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="14">Видалення даних: DELETE</a></li>
-
-                                <li class="dropdown-divider"></li>
-
-                                <li class="dropdown-header">Розділ 4. Робота з таблицями</li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="16">Створення таблиць: CREATE TABLE</a></li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="17">Зміна таблиць: ALTER TABLE</a></li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="18">Видалення таблиць: DROP TABLE</a></li>
-
-                                <li class="dropdown-divider"></li>
-
-                                <li class="dropdown-header">Розділ 5. Аналіз даних</li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="20">Агрегатні функції</a></li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="21">Групування даних: GROUP BY та HAVING</a></li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="22">Робота з NULL: IS/IS NOT NULL</a></li>
-
-                                <li class="dropdown-divider"></li>
-
-                                <li class="dropdown-header">Розділ 6. Зв'язки між таблицями</li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="24">Внутрішнє об'єднання: INNER JOIN</a></li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="25">Ліве та праве об'єднання: LEFT JOIN та RIGHT JOIN</a></li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="26">Повне об'єднання: FULL JOIN</a></li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="27">Самооб'єднання: SELF JOIN</a></li>
-                                <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="28">Робота із зовнішніми ключами (Foreign Key)</a></li>
-
-                            </ul>
-                        </li>
                         <li><a asp-area="" asp-controller="Home" asp-action="Index">Головна</a></li>
                         <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Про нас</a></li>
                         <li><a asp-area="" asp-controller="Lessons" asp-action="Index">Уроки</a></li>
@@ -72,19 +24,64 @@
                 </div>
             </nav>
         </header>
-        <main role="main" class="content">
-            @RenderBody()
-        </main>
+
+        <div class="container-flex">
+            <!-- Ліва панель уроків -->
+            <aside class="sidebar">
+                <ul class="lesson-list">
+                    <li class="lesson-section">Розділ 1. Вступ до баз даних та SQL</li>
+                    <li><a asp-controller="Lessons" asp-action="Lesson1">Вступ до баз даних</a></li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="3">Основні поняття реляційних баз даних</a></li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="4">Нормалізація баз даних</a></li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="5">Основи SQL</a></li>
+
+                    <li class="lesson-section">Розділ 2. Робота з даними</li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="7">Базовий оператор запиту: SELECT</a></li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="8">Фільтрація даних: WHERE, оператори</a></li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="9">Пошук за шаблоном: оператор LIKE</a></li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="10">Сортування результатів: ORDER BY</a></li>
+
+                    <li class="lesson-section">Розділ 3. Запити</li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="12">Додавання даних: INSERT INTO</a></li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="13">Оновлення даних: UPDATE</a></li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="14">Видалення даних: DELETE</a></li>
+
+                    <li class="lesson-section">Розділ 4. Робота з таблицями</li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="16">Створення таблиць: CREATE TABLE</a></li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="17">Зміна таблиць: ALTER TABLE</a></li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="18">Видалення таблиць: DROP TABLE</a></li>
+
+                    <li class="lesson-section">Розділ 5. Аналіз даних</li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="20">Агрегатні функції</a></li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="21">Групування даних: GROUP BY та HAVING</a></li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="22">Робота з NULL: IS/IS NOT NULL</a></li>
+
+                    <li class="lesson-section">Розділ 6. Зв'язки між таблицями</li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="24">Внутрішнє об'єднання: INNER JOIN</a></li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="25">Ліве та праве об'єднання: LEFT JOIN та RIGHT JOIN</a></li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="26">Повне об'єднання: FULL JOIN</a></li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="27">Самооб'єднання: SELF JOIN</a></li>
+                    <li><a asp-controller="Lessons" asp-action="Details" asp-route-id="28">Робота із зовнішніми ключами (Foreign Key)</a></li>
+                </ul>
+            </aside>
+
+            <!-- Основний контент -->
+            <main role="main" class="content">
+                @RenderBody()
+            </main>
+        </div>
     </div>
+
+    <!-- Футер -->
     <footer class="footer">
         <div class="container">
             &copy; 2025 - SQLCodex - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
-
