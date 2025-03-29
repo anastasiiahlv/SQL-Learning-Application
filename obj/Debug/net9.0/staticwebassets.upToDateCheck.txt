@@ -56,6 +56,7 @@ C:\Users\USER\Desktop\SQL Learning Application\SQLLearningApp\wwwroot\lib\jquery
 C:\Users\USER\Desktop\SQL Learning Application\SQLLearningApp\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
 C:\Users\USER\Desktop\SQL Learning Application\SQLLearningApp\wwwroot\favicon.ico
 C:\Users\USER\Desktop\SQL Learning Application\SQLLearningApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\USER\Desktop\SQL Learning Application\SQLLearningApp\wwwroot\js\lesson.js
 C:\Users\USER\Desktop\SQL Learning Application\SQLLearningApp\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 C:\Users\USER\Desktop\SQL Learning Application\SQLLearningApp\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
 C:\Users\USER\Desktop\SQL Learning Application\SQLLearningApp\wwwroot\lib\bootstrap\dist\css\bootstrap.css
@@ -64,6 +65,7 @@ C:\Users\USER\Desktop\SQL Learning Application\SQLLearningApp\wwwroot\lib\jquery
 wwwroot\css\lesson.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\js\lesson.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

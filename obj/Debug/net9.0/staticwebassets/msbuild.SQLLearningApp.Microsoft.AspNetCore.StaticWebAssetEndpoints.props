@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/SQLLearningApp/css/lesson.87xiqq5cw1.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\lesson.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"87xiqq5cw1"},{"Name":"integrity","Value":"sha256-bDU57ySunnSlGxjeUEDMhlPmD0eyl3LUxju1r/aLxg4="},{"Name":"label","Value":"_content/SQLLearningApp/css/lesson.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3105"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bDU57ySunnSlGxjeUEDMhlPmD0eyl3LUxju1r/aLxg4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Mar 2025 14:11:06 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SQLLearningApp/css/lesson.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\lesson.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bDU57ySunnSlGxjeUEDMhlPmD0eyl3LUxju1r/aLxg4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3105"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022bDU57ySunnSlGxjeUEDMhlPmD0eyl3LUxju1r/aLxg4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Mar 2025 14:11:06 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rC/0h8y/y0B5/DspjkqJjk7q3HNdjSIM/xc4s5EGYQQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"23327"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rC/0h8y/y0B5/DspjkqJjk7q3HNdjSIM/xc4s5EGYQQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 19:55:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SQLLearningApp/css/lesson.s0l9hr2tn6.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\lesson.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s0l9hr2tn6"},{"Name":"integrity","Value":"sha256-rC/0h8y/y0B5/DspjkqJjk7q3HNdjSIM/xc4s5EGYQQ="},{"Name":"label","Value":"_content/SQLLearningApp/css/lesson.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"23327"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rC/0h8y/y0B5/DspjkqJjk7q3HNdjSIM/xc4s5EGYQQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 19:55:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SQLLearningApp/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
@@ -35,6 +35,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 11 Jan 2025 17:23:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SQLLearningApp/js/lesson.jjzcp7d4tb.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\lesson.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jjzcp7d4tb"},{"Name":"integrity","Value":"sha256-70OKbZiMv4VT2tdIc73Rfs01z3WbiJd6\u002BjH2/yO26wg="},{"Name":"label","Value":"_content/SQLLearningApp/js/lesson.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"15459"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u002270OKbZiMv4VT2tdIc73Rfs01z3WbiJd6\u002BjH2/yO26wg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 19:57:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SQLLearningApp/js/lesson.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\lesson.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-70OKbZiMv4VT2tdIc73Rfs01z3WbiJd6\u002BjH2/yO26wg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"15459"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u002270OKbZiMv4VT2tdIc73Rfs01z3WbiJd6\u002BjH2/yO26wg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 19:57:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/SQLLearningApp/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

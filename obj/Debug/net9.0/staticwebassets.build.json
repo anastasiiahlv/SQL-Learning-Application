@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4/El045diF4Y29RcCXooQLYY3YDN0ni2anI1smmkZDM=",
+  "Hash": "dlyvOIfthZn7RBvpRjksd1BCsFhf2FgyYvViK/pdDa4=",
   "Source": "SQLLearningApp",
   "BasePath": "_content/SQLLearningApp",
   "Mode": "Default",
@@ -689,12 +689,12 @@
       "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\fusbjj2o5c-87xiqq5cw1.gz",
+      "Identity": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\fusbjj2o5c-s0l9hr2tn6.gz",
       "SourceId": "SQLLearningApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/SQLLearningApp",
-      "RelativePath": "css/lesson#[.{fingerprint=87xiqq5cw1}]?.css.gz",
+      "RelativePath": "css/lesson#[.{fingerprint=s0l9hr2tn6}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -703,8 +703,8 @@
       "RelatedAsset": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\wwwroot\\css\\lesson.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "520921mf0c",
-      "Integrity": "jW512vizVTt7DqduiY8zRDcwFNcsOYhbiLRtU3f6cQk=",
+      "Fingerprint": "3mgur7trw4",
+      "Integrity": "m7ZZ/LVHEI0pE8GAOswPffJY4dHBrE4p6V7d24qFf0w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\wwwroot\\css\\lesson.css"
@@ -1277,6 +1277,27 @@
       "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
+      "Identity": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\vqkkb91s0j-jjzcp7d4tb.gz",
+      "SourceId": "SQLLearningApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SQLLearningApp",
+      "RelativePath": "js/lesson#[.{fingerprint=jjzcp7d4tb}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\wwwroot\\js\\lesson.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "b27riws9kc",
+      "Integrity": "fdFgM1jRgp/heGC6kT2Zy+cKtIwwbUk1D26df8rA25A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\wwwroot\\js\\lesson.js"
+    },
+    {
       "Identity": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\x42feg6jc4-356vix0kms.gz",
       "SourceId": "SQLLearningApp",
       "SourceType": "Discovered",
@@ -1438,8 +1459,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "87xiqq5cw1",
-      "Integrity": "bDU57ySunnSlGxjeUEDMhlPmD0eyl3LUxju1r/aLxg4=",
+      "Fingerprint": "s0l9hr2tn6",
+      "Integrity": "rC/0h8y/y0B5/DspjkqJjk7q3HNdjSIM/xc4s5EGYQQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\lesson.css"
@@ -1485,6 +1506,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\wwwroot\\js\\lesson.js",
+      "SourceId": "SQLLearningApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\wwwroot\\",
+      "BasePath": "_content/SQLLearningApp",
+      "RelativePath": "js/lesson#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jjzcp7d4tb",
+      "Integrity": "70OKbZiMv4VT2tdIc73Rfs01z3WbiJd6+jH2/yO26wg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\lesson.js"
     },
     {
       "Identity": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\wwwroot\\js\\site.js",
@@ -2770,13 +2812,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/lesson.87xiqq5cw1.css",
-      "AssetFile": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\fusbjj2o5c-87xiqq5cw1.gz",
+      "Route": "css/lesson.css",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\fusbjj2o5c-s0l9hr2tn6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001176470588"
+          "Quality": "0.000222123501"
         }
       ],
       "ResponseHeaders": [
@@ -2786,19 +2828,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "849"
+          "Value": "4501"
         },
         {
           "Name": "ETag",
-          "Value": "\"jW512vizVTt7DqduiY8zRDcwFNcsOYhbiLRtU3f6cQk=\""
+          "Value": "\"m7ZZ/LVHEI0pE8GAOswPffJY4dHBrE4p6V7d24qFf0w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 14:11:06 GMT"
+          "Value": "Fri, 21 Mar 2025 19:55:06 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2814,26 +2856,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"bDU57ySunnSlGxjeUEDMhlPmD0eyl3LUxju1r/aLxg4=\""
+          "Value": "W/\"rC/0h8y/y0B5/DspjkqJjk7q3HNdjSIM/xc4s5EGYQQ=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "87xiqq5cw1"
-        },
-        {
-          "Name": "label",
-          "Value": "css/lesson.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-bDU57ySunnSlGxjeUEDMhlPmD0eyl3LUxju1r/aLxg4="
+          "Value": "sha256-rC/0h8y/y0B5/DspjkqJjk7q3HNdjSIM/xc4s5EGYQQ="
         }
       ]
     },
     {
-      "Route": "css/lesson.87xiqq5cw1.css",
+      "Route": "css/lesson.css",
       "AssetFile": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\wwwroot\\css\\lesson.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2843,7 +2877,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3105"
+          "Value": "23327"
         },
         {
           "Name": "Content-Type",
@@ -2851,11 +2885,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bDU57ySunnSlGxjeUEDMhlPmD0eyl3LUxju1r/aLxg4=\""
+          "Value": "\"rC/0h8y/y0B5/DspjkqJjk7q3HNdjSIM/xc4s5EGYQQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 14:11:06 GMT"
+          "Value": "Fri, 21 Mar 2025 19:55:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rC/0h8y/y0B5/DspjkqJjk7q3HNdjSIM/xc4s5EGYQQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/lesson.css.gz",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\fusbjj2o5c-s0l9hr2tn6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4501"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m7ZZ/LVHEI0pE8GAOswPffJY4dHBrE4p6V7d24qFf0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:55:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m7ZZ/LVHEI0pE8GAOswPffJY4dHBrE4p6V7d24qFf0w="
+        }
+      ]
+    },
+    {
+      "Route": "css/lesson.s0l9hr2tn6.css",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\fusbjj2o5c-s0l9hr2tn6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000222123501"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4501"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m7ZZ/LVHEI0pE8GAOswPffJY4dHBrE4p6V7d24qFf0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:55:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rC/0h8y/y0B5/DspjkqJjk7q3HNdjSIM/xc4s5EGYQQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s0l9hr2tn6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/lesson.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rC/0h8y/y0B5/DspjkqJjk7q3HNdjSIM/xc4s5EGYQQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/lesson.s0l9hr2tn6.css",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\wwwroot\\css\\lesson.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23327"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rC/0h8y/y0B5/DspjkqJjk7q3HNdjSIM/xc4s5EGYQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:55:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2865,7 +3044,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "87xiqq5cw1"
+          "Value": "s0l9hr2tn6"
         },
         {
           "Name": "label",
@@ -2873,13 +3052,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bDU57ySunnSlGxjeUEDMhlPmD0eyl3LUxju1r/aLxg4="
+          "Value": "sha256-rC/0h8y/y0B5/DspjkqJjk7q3HNdjSIM/xc4s5EGYQQ="
         }
       ]
     },
     {
-      "Route": "css/lesson.87xiqq5cw1.css.gz",
-      "AssetFile": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\fusbjj2o5c-87xiqq5cw1.gz",
+      "Route": "css/lesson.s0l9hr2tn6.css.gz",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\fusbjj2o5c-s0l9hr2tn6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2888,7 +3067,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "849"
+          "Value": "4501"
         },
         {
           "Name": "Content-Type",
@@ -2896,11 +3075,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jW512vizVTt7DqduiY8zRDcwFNcsOYhbiLRtU3f6cQk=\""
+          "Value": "\"m7ZZ/LVHEI0pE8GAOswPffJY4dHBrE4p6V7d24qFf0w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 14:11:06 GMT"
+          "Value": "Fri, 21 Mar 2025 19:55:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2918,7 +3097,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "87xiqq5cw1"
+          "Value": "s0l9hr2tn6"
         },
         {
           "Name": "label",
@@ -2926,144 +3105,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jW512vizVTt7DqduiY8zRDcwFNcsOYhbiLRtU3f6cQk="
-        }
-      ]
-    },
-    {
-      "Route": "css/lesson.css",
-      "AssetFile": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\fusbjj2o5c-87xiqq5cw1.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001176470588"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "849"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jW512vizVTt7DqduiY8zRDcwFNcsOYhbiLRtU3f6cQk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 14:11:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"bDU57ySunnSlGxjeUEDMhlPmD0eyl3LUxju1r/aLxg4=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-bDU57ySunnSlGxjeUEDMhlPmD0eyl3LUxju1r/aLxg4="
-        }
-      ]
-    },
-    {
-      "Route": "css/lesson.css",
-      "AssetFile": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\wwwroot\\css\\lesson.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3105"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bDU57ySunnSlGxjeUEDMhlPmD0eyl3LUxju1r/aLxg4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 14:11:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-bDU57ySunnSlGxjeUEDMhlPmD0eyl3LUxju1r/aLxg4="
-        }
-      ]
-    },
-    {
-      "Route": "css/lesson.css.gz",
-      "AssetFile": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\fusbjj2o5c-87xiqq5cw1.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "849"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jW512vizVTt7DqduiY8zRDcwFNcsOYhbiLRtU3f6cQk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 14:11:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jW512vizVTt7DqduiY8zRDcwFNcsOYhbiLRtU3f6cQk="
+          "Value": "sha256-m7ZZ/LVHEI0pE8GAOswPffJY4dHBrE4p6V7d24qFf0w="
         }
       ]
     },
@@ -3660,6 +3702,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8="
+        }
+      ]
+    },
+    {
+      "Route": "js/lesson.jjzcp7d4tb.js",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\vqkkb91s0j-jjzcp7d4tb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000255558395"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3912"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fdFgM1jRgp/heGC6kT2Zy+cKtIwwbUk1D26df8rA25A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:57:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"70OKbZiMv4VT2tdIc73Rfs01z3WbiJd6+jH2/yO26wg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jjzcp7d4tb"
+        },
+        {
+          "Name": "label",
+          "Value": "js/lesson.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-70OKbZiMv4VT2tdIc73Rfs01z3WbiJd6+jH2/yO26wg="
+        }
+      ]
+    },
+    {
+      "Route": "js/lesson.jjzcp7d4tb.js",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\wwwroot\\js\\lesson.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"70OKbZiMv4VT2tdIc73Rfs01z3WbiJd6+jH2/yO26wg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:57:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jjzcp7d4tb"
+        },
+        {
+          "Name": "label",
+          "Value": "js/lesson.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-70OKbZiMv4VT2tdIc73Rfs01z3WbiJd6+jH2/yO26wg="
+        }
+      ]
+    },
+    {
+      "Route": "js/lesson.jjzcp7d4tb.js.gz",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\vqkkb91s0j-jjzcp7d4tb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fdFgM1jRgp/heGC6kT2Zy+cKtIwwbUk1D26df8rA25A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:57:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jjzcp7d4tb"
+        },
+        {
+          "Name": "label",
+          "Value": "js/lesson.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fdFgM1jRgp/heGC6kT2Zy+cKtIwwbUk1D26df8rA25A="
+        }
+      ]
+    },
+    {
+      "Route": "js/lesson.js",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\vqkkb91s0j-jjzcp7d4tb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000255558395"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3912"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fdFgM1jRgp/heGC6kT2Zy+cKtIwwbUk1D26df8rA25A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:57:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"70OKbZiMv4VT2tdIc73Rfs01z3WbiJd6+jH2/yO26wg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-70OKbZiMv4VT2tdIc73Rfs01z3WbiJd6+jH2/yO26wg="
+        }
+      ]
+    },
+    {
+      "Route": "js/lesson.js",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\wwwroot\\js\\lesson.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"70OKbZiMv4VT2tdIc73Rfs01z3WbiJd6+jH2/yO26wg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:57:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-70OKbZiMv4VT2tdIc73Rfs01z3WbiJd6+jH2/yO26wg="
+        }
+      ]
+    },
+    {
+      "Route": "js/lesson.js.gz",
+      "AssetFile": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\obj\\Debug\\net9.0\\compressed\\vqkkb91s0j-jjzcp7d4tb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fdFgM1jRgp/heGC6kT2Zy+cKtIwwbUk1D26df8rA25A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:57:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fdFgM1jRgp/heGC6kT2Zy+cKtIwwbUk1D26df8rA25A="
         }
       ]
     },

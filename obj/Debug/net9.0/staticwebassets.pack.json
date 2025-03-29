@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\wwwroot\\js\\lesson.js",
+      "PackagePath": "staticwebassets\\js\\lesson.js"
+    },
+    {
       "Id": "C:\\Users\\USER\\Desktop\\SQL Learning Application\\SQLLearningApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

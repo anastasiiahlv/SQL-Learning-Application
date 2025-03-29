@@ -9,172 +9,484 @@
 </head>
 <body>
     <div class="lesson-container">
-        <h1 class="lesson-title">Вступ до баз даних</h1>
-        <p class="lesson-description">
-            Сучасний цифровий світ заснований на даних. Кожен клік миші, покупка в інтернет-магазині 
-            чи навіть перегляд улюбленого серіалу генерує масу інформації, яка потребує зберігання та 
-            обробки. Саме бази даних відіграють ключову роль у цьому процесі, забезпечуючи 
-            впорядковане зберігання інформації та швидкий доступ до неї.
-        </p>
 
-        <p class="lesson-description">
-            Бази даних використовуються всюди: від невеликих персональних проєктів і мобільних 
-            додатків до складних корпоративних систем, які обробляють мільйони запитів щосекунди. 
-            Вони є основою для інтернет-магазинів, банківських систем, соціальних мереж, аналітичних 
-            платформ і навіть штучного інтелекту.
-        </p>
+        <!-- Навігаційні вкладки -->
+        <div class="lesson-tabs">
+            <button class="tab-btn active" data-tab="theory">Теорія</button>
+            <button class="tab-btn" data-tab="practice">Практика</button>
+            <button class="tab-btn" data-tab="flashcards">Флешкартки</button>
+            <button class="tab-btn" data-tab="challenge">Тести</button>
+        </div>
 
-        <p class="lesson-description">
-            Ми всі використовуємо дані та бази даних у нашому повсякденному онлайн-житті. Що ж таке 
-            дані і як вони взаємодіють із базою даних? У простих словах, дані — це факти та цифри про 
-            будь-що. Наприклад:
-        </p>
+        <!-- Індикатор прогресу -->
+        <div class="progress-container">
+            <div class="progress-bar" id="lesson-progress"></div>
+        </div>
 
-        <ul>
-            <li>
-                Якщо зібрати дані про людину, то ці дані можуть включати її ім’я, вік,
-                електронну пошту та дату народження.
-            </li>
-            <li>
-                Даними, пов'язаними з онлайн-покупкою, може бути номер замовлення, опис, кількість 
-                замовлених одиниць, дата замовлення і навіть електронна пошта клієнта. 
-            </li>
-        </ul>
+        <!-- Теоретична частина -->
+        <div class="tab-content active" id="theory">
+            <div class="info-card">
+                <div class="info-card-header">
+                    <i class="fas fa-info-circle info-icon"></i>
+                    <h3>Чи ви задумувались про це?</h3>
+                </div>
+                <p>Сучасний цифровий світ заснований на даних. Кожен клік миші, покупка в інтернет-магазині чи навіть перегляд улюбленого серіалу генерує масу інформації, яка потребує зберігання та обробки.</p>
+            </div>
 
-        <p class="lesson-description">
-            Дані мають велике значення як для окремих осіб, так і для організацій.
-        </p>
-
-        <p class="lesson-description">
-            У сучасному цифровому світі дані більше не зберігаються у паперових файлах. Натомість 
-            розробники використовують так звані бази даних.
-        </p>
-
-        <p class="section-title">
-            Що таке база даних?
-        </p>
-
-        <p class="lesson-description">
-            <b>База даних</b> - це організована структура, яка призначена для зберігання, зміни та обробки
-            взаємозалежної інформації.
-            <b>Завдання бази даних:</b>
-        </p>
-
-        <ul>
-            <li>Зберігати дані;</li>
-            <li>Формувати зв'язки або відносини між сегментованими областями даних;</li>
-            <li>Фільтрувати дані для відображення релевантних записів;</li>
-            <li>Здійснювати пошук даних для повернення відповідних записів;</li>
-            <li>Мати функції, що дозволяють оновлювати, змінювати та видаляти дані за необхідності.</li>
-        </ul>
-
-        <p class="section-title">
-            Система керування базами даних (СКБД)
-        </p>
-
-        <p class ="lesson-description">
-            СКБД - це набір програм та інтрументів, що забезпечує введення, зберігання, пошук, 
-            опрацювання даних у базі даних. І також:
-        </p>
-
-        <ul>
-            <li>Надає інтерфейс для роботи з базою даних;</li>
-            <li>Дозволяє користувачам створювати бази даних відповідно до їхніх потреб;</li>
-            <li>Забезпечує захист даних, запобігаючи несанкціонованому доступу та підтримуючи 
-                цілісність бази даних.</li>
-        </ul>
-
-        <p class="section-title">
-            Типи баз даних
-        </p>
-
-        <ol>
-            <li>
-				<b>Реляційні бази даних (Relational Databases)</b>
-                <p class="lesson-description">
-                    Вміст реляційної бази даних організований як колекція таблиць із рядками та 
-                    стовпцями. Реляційна технологія баз даних забезпечує найбільш гнучкий і 
-                    ефективний доступ до структурованих даних.
-                </p>
-                <p class="lesson-description">
-					<b>Приклади СУБД:</b> MySQL, PostgreSQL, Oracle Database, Microsoft SQL Server.
-                </p>
-            </li>
-            
-        </ol>
-
-        <div class="task">
-            <h3 class="task-title">Завдання</h3>
-            <p class="task-description">
-                Напишіть SQL-запит для отримання <strong>назв</strong> усіх книжок із таблиці "Book".
+            <p class="lesson-description">
+                Бази даних використовуються всюди: від невеликих персональних проєктів і мобільних
+                додатків до складних корпоративних систем, які обробляють мільйони запитів щосекунди.
+                Вони є основою для інтернет-магазинів, банківських систем, соціальних мереж, аналітичних
+                платформ і навіть штучного інтелекту.
             </p>
-            <textarea id="query-input" class="query-input" placeholder="Введіть SQL-запит сюди"></textarea>
-            <button id="run-query" class="run-query-btn">Виконати запит</button>
+
+            <div class="interactive-element">
+                <h3>Приклади використання баз даних в повсякденному житті:</h3>
+                <div class="example-cards">
+                    <div class="example-card" id="card1">
+                        <div class="card-inner"> 
+                            <div class="card-front">
+                                <i class="fas fa-shopping-cart example-icon"></i>
+                                <h4>Інтернет-магазини</h4>
+                            </div>
+                            <div class="card-back">
+                                <p>Зберігають інформацію про товари, замовлення, клієнтів та історію покупок.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="example-card" id="card2">
+                        <div class="card-inner"> 
+                            <div class="card-front">
+                                <i class="fas fa-university example-icon"></i>
+                                <h4>Банки</h4>
+                            </div>
+                            <div class="card-back">
+                                <p>Відстежують транзакції, баланси рахунків та персональні дані клієнтів.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="example-card" id="card3">
+                        <div class="card-inner"> 
+                            <div class="card-front">
+                                <i class="fas fa-users example-icon"></i>
+                                <h4>Соціальні мережі</h4>
+                            </div>
+                            <div class="card-back">
+                                <p>Зберігають профілі користувачів, пости, зображення та зв'язки між людьми.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="lesson-description">
+                Ми всі використовуємо дані та бази даних у нашому повсякденному онлайн-житті. Що ж таке
+                дані і як вони взаємодіють із базою даних? У простих словах, дані — це факти та цифри про
+                будь-що.
+            </p>
+
+            <div class="expandable-list">
+                <div class="expandable-header">
+                    <i class="fas fa-chevron-down"></i>
+                    <h4>Приклади даних</h4>
+                </div>
+                <div class="expandable-content">
+                    <ul>
+                        <li>
+                            Якщо зібрати дані про людину, то ці дані можуть включати її ім'я, вік,
+                            електронну пошту та дату народження.
+                        </li>
+                        <li>
+                            Даними, пов'язаними з онлайн-покупкою, може бути номер замовлення, опис, кількість
+                            замовлених одиниць, дата замовлення і навіть електронна пошта клієнта.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="section-title">
+                Що таке база даних?
+            </p>
+
+            <div class="definition-box">
+                <h3><i class="fas fa-book"></i> Визначення</h3>
+                <p>
+                    <b>База даних</b> - це організована структура, яка призначена для зберігання, зміни та обробки
+                    взаємозалежної інформації.
+                </p>
+            </div>
+
+            <div class="expandable-list">
+                <div class="expandable-header">
+                    <i class="fas fa-chevron-down"></i>
+                    <h4>Завдання бази даних</h4>
+                </div>
+                <div class="expandable-content">
+                    <ul>
+                        <li>
+                            Зберігати дані
+                        </li>
+                        <li>
+                            Формувати зв'язки або відносини між сегментованими областями даних
+                        </li>
+                        <li>
+                            Фільтрувати дані для відображення релевантних записів
+                        </li>
+                        <li>
+                            Здійснювати пошук даних для повернення відповідних записів
+                        </li>
+                        <li>
+                            Мати функції, що дозволяють оновлювати, змінювати та видаляти дані за необхідності
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="section-title">
+                Система керування базами даних (СКБД)
+            </p>
+
+            <p class="lesson-description">
+                СКБД - це набір програм та інтрументів, що забезпечує введення, зберігання, пошук,
+                опрацювання даних у базі даних. І також:
+            </p>
+
+            <ul>
+                <li>Надає інтерфейс для роботи з базою даних;</li>
+                <li>Дозволяє користувачам створювати бази даних відповідно до їхніх потреб;</li>
+                <li>
+                    Забезпечує захист даних, запобігаючи несанкціонованому доступу та підтримуючи
+                    цілісність бази даних.
+                </li>
+            </ul>
+
+            <p class="section-title">
+                Типи баз даних
+            </p>
+
+            <div class="db-type-selector">
+                <div class="db-type-tabs">
+                    <button class="db-tab active" data-dbtype="relational">Реляційні</button>
+                    <button class="db-tab" data-dbtype="nosql">NoSQL</button>
+                    <button class="db-tab" data-dbtype="graph">Графові</button>
+                </div>
+                <div class="db-type-content active" id="relational">
+                    <h3>Реляційні бази даних</h3>
+                    <p>
+                        Вміст реляційної бази даних організований як колекція таблиць із рядками та
+                        стовпцями. Реляційна технологія баз даних забезпечує найбільш гнучкий і
+                        ефективний доступ до структурованих даних.
+                    </p>
+                    <p><b>Приклади СУБД:</b> MySQL, PostgreSQL, Oracle Database, Microsoft SQL Server.</p>
+                </div>
+                <div class="db-type-content" id="nosql">
+                    <h3>NoSQL бази даних</h3>
+                    <p>Нереляційні бази даних, які зберігають дані в форматах відмінних від таблиць, наприклад, документи, графи, ключі-значення.</p>
+                    <p><b>Приклади СУБД:</b> MongoDB, Cassandra, Redis, Couchbase.</p>
+                </div>
+                <div class="db-type-content" id="graph">
+                    <h3>Графові бази даних</h3>
+                    <p>Спеціалізовані бази даних, оптимізовані для зберігання складних зв'язків між об'єктами.</p>
+                    <p><b>Приклади СУБД:</b> Neo4j, Amazon Neptune, ArangoDB.</p>
+                </div>
+            </div>
+
+            <div class="nav-buttons">
+                <button class="btn" id="next-theory">Далі <i class="fas fa-arrow-right"></i></button>
+            </div>
         </div>
 
-        <div class="table-container">
-            <h3 class="table-title">Дані таблиці "Book"</h3>
-            <table class="styled-table">
-                <thead>
-                    <tr>
-                        <th>Id</th>
-                        <th>Title</th>
-                        <th>Description</th>
-                        <th>Price</th>
-                        <th>Author</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var book in Model)
-                    {
-                        <tr>
-                            <td>@book.Id</td>
-                            <td>@book.Title</td>
-                            <td class="description-cell">@book.Description</td>
-                            <td>@book.Price</td>
-                            <td>@book.Author</td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
+        <!-- Практична частина -->
+        <div class="tab-content" id="practice">
+            <h2 class="practice-title">Практичне завдання</h2>
+
+            <div class="task">
+                <h3 class="task-title">Завдання</h3>
+                <p class="task-description">
+                    Напишіть SQL-запит для отримання <strong>назв</strong> усіх книжок із таблиці "Book".
+                </p>
+
+                <div class="table-container">
+                    <h3 class="table-title">
+                        <i class="fas fa-table"></i> Дані таблиці "Book"
+                    </h3>
+
+                    <div class="table-scroll">
+                        <table class="styled-table">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Title</th>
+                                    <th>Description</th>
+                                    <th>Price</th>
+                                    <th>Author</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var book in Model)
+                                {
+                                    <tr>
+                                        <td>@book.Id</td>
+                                        <td>@book.Title</td>
+                                        <td class="description-cell">@book.Description</td>
+                                        <td>@book.Price</td>
+                                        <td>@book.Author</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="code-editor-container">
+                    <div class="editor-toolbar">
+                        <span class="toolbar-btn" title="Форматувати код"><i class="fas fa-indent"></i></span>
+                        <span class="toolbar-btn" title="Очистити"><i class="fas fa-eraser"></i></span>
+                        <span class="toolbar-btn" title="Підказка"><i class="fas fa-lightbulb hint-btn"></i></span>
+                    </div>
+                    <textarea id="query-input" class="query-input" placeholder="Введіть SQL-запит сюди"></textarea>
+                </div>
+
+                <div class="hint-popup" id="hint-box" style="display: none;">
+                    <p class="hint-text">Спробуйте використати оператор SELECT для вибору полів з таблиці</p>
+                    <div class="hint-levels">
+                        <button class="hint-level" data-level="1">Підказка 1</button>
+                        <button class="hint-level" data-level="2">Підказка 2</button>
+                        <button class="hint-level" data-level="3">Підказка 3</button>
+                    </div>
+                </div>
+
+                <button id="run-query" class="run-query-btn">
+                    <i class="fas fa-play"></i> Виконати запит
+                </button>
+            </div>
+
+            <div id="query-result" class="result-container">
+                <h3 class="result-title">
+                    <i class="fas fa-poll"></i> Результат виконання
+                </h3>
+                <pre id="result-output" class="result-output"></pre>
+
+                <div class="celebration-animation" id="success-animation">
+                    <div class="confetti"></div>
+                    <div class="success-message">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Відмінно! Запит виконано правильно!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-buttons">
+                <button class="btn" id="prev-to-theory"><i class="fas fa-arrow-left"></i> Теорія</button>
+                <button class="btn" id="next-to-flashcards">Флешкартки <i class="fas fa-arrow-right"></i></button>
+            </div>
         </div>
 
-        <div id="query-result" class="result-container">
-            <h3 class="result-title">Результат виконання</h3>
-            <pre id="result-output" class="result-output"></pre>
+        <!-- Флешкартки -->
+        <div class="tab-content" id="flashcards">
+            <h2 class="flashcards-title">Перевірте свої знання</h2>
+
+            <div class="flashcard-container">
+                <div class="flashcard-progress">
+                    <span id="current-card">1</span>/<span id="total-cards">5</span>
+                </div>
+
+                <div class="flashcard-deck">
+                    <div class="flashcard current-card" data-card-index="0">
+                        <div class="flashcard-inner">
+                            <div class="flashcard-front">
+                                <h4>Що таке база даних?</h4>
+                                <p class="flashcard-instruction">Натисніть, щоб побачити відповідь</p>
+                            </div>
+                            <div class="flashcard-back">
+                                <p>База даних - це організована структура, яка призначена для зберігання, зміни та обробки взаємозалежної інформації.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flashcard" data-card-index="1">
+                        <div class="flashcard-inner">
+                            <div class="flashcard-front">
+                                <h4>Що таке СКБД?</h4>
+                                <p class="flashcard-instruction">Натисніть, щоб побачити відповідь</p>
+                            </div>
+                            <div class="flashcard-back">
+                                <p>СКБД (Система керування базами даних) - це набір програм та інтрументів, що забезпечує введення, зберігання, пошук та опрацювання даних у базі даних.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flashcard" data-card-index="2">
+                        <div class="flashcard-inner">
+                            <div class="flashcard-front">
+                                <h4>Що таке реляційна база даних?</h4>
+                                <p class="flashcard-instruction">Натисніть, щоб побачити відповідь</p>
+                            </div>
+                            <div class="flashcard-back">
+                                <p>Реляційна база даних - це тип бази даних, де дані організовані у вигляді таблиць із рядками та стовпцями, з відношеннями між цими таблицями.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flashcard" data-card-index="3">
+                        <div class="flashcard-inner">
+                            <div class="flashcard-front">
+                                <h4>Яка команда SQL використовується для отримання даних?</h4>
+                                <p class="flashcard-instruction">Натисніть, щоб побачити відповідь</p>
+                            </div>
+                            <div class="flashcard-back">
+                                <p>Команда SELECT використовується для вибірки (отримання) даних з таблиці у базі даних.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flashcard" data-card-index="4">
+                        <div class="flashcard-inner">
+                            <div class="flashcard-front">
+                                <h4>Наведіть приклади СУБД для реляційних баз даних</h4>
+                                <p class="flashcard-instruction">Натисніть, щоб побачити відповідь</p>
+                            </div>
+                            <div class="flashcard-back">
+                                <p>MySQL, PostgreSQL, Oracle Database, Microsoft SQL Server.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flashcard-controls">
+                    <button id="prev-card" class="flashcard-nav-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button id="know-it" class="flashcard-action-btn">Знаю</button>
+                    <button id="review-later" class="flashcard-action-btn">Повторити</button>
+                    <button id="next-card" class="flashcard-nav-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+
+            <div class="nav-buttons">
+                <button class="btn" id="prev-to-practice"><i class="fas fa-arrow-left"></i> Практика</button>
+                <button class="btn" id="next-to-challenge">Челендж <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <!-- Челендж -->
+        <div class="tab-content" id="challenge">
+            <h2 class="challenge-title">SQL Челендж</h2>
+
+            <div class="challenge-timer">
+                <i class="fas fa-clock"></i> <span id="timer">02:00</span>
+            </div>
+
+            <div class="challenge-description">
+                <p>Перевірте свої знання SQL, розв'язавши декілька завдань на час. У вас є 2 хвилини!</p>
+            </div>
+
+            <div class="challenge-container">
+                <div class="challenge-question active" data-question="1">
+                    <h4>Питання 1</h4>
+                    <p>Який SQL запит поверне всі назви книжок із таблиці "Book"?</p>
+                    <div class="challenge-options">
+                        <div class="option">
+                            <input type="radio" name="q1" id="q1-a" value="a">
+                            <label for="q1-a">SELECT * FROM Book;</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q1" id="q1-b" value="b">
+                            <label for="q1-b">SELECT Title FROM Book;</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q1" id="q1-c" value="c">
+                            <label for="q1-c">SELECT Name FROM Book;</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q1" id="q1-d" value="d">
+                            <label for="q1-d">SHOW Title FROM Book;</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="challenge-question" data-question="2">
+                    <h4>Питання 2</h4>
+                    <p>Яка абревіатура СКБД розшифровується як:</p>
+                    <div class="challenge-options">
+                        <div class="option">
+                            <input type="radio" name="q2" id="q2-a" value="a">
+                            <label for="q2-a">Система Керування Базами Даних</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q2" id="q2-b" value="b">
+                            <label for="q2-b">Система Контролю Бухгалтерських Даних</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q2" id="q2-c" value="c">
+                            <label for="q2-c">Система Комп'ютерних Бізнес Додатків</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q2" id="q2-d" value="d">
+                            <label for="q2-d">Сучасні Комп'ютерні Безпечні Дані</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="challenge-question" data-question="3">
+                    <h4>Питання 3</h4>
+                    <p>Який тип баз даних організований як колекція таблиць із рядками та стовпцями?</p>
+                    <div class="challenge-options">
+                        <div class="option">
+                            <input type="radio" name="q3" id="q3-a" value="a">
+                            <label for="q3-a">NoSQL бази даних</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q3" id="q3-b" value="b">
+                            <label for="q3-b">Реляційні бази даних</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q3" id="q3-c" value="c">
+                            <label for="q3-c">Графові бази даних</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q3" id="q3-d" value="d">
+                            <label for="q3-d">Ієрархічні бази даних</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="challenge-navigation">
+                    <button id="prev-question" disabled><i class="fas fa-arrow-left"></i> Попереднє</button>
+                    <div class="question-indicators">
+                        <span class="question-dot active" data-question="1"></span>
+                        <span class="question-dot" data-question="2"></span>
+                        <span class="question-dot" data-question="3"></span>
+                    </div>
+                    <button id="next-question">Наступне <i class="fas fa-arrow-right"></i></button>
+                </div>
+
+                <button id="challenge-submit" class="challenge-submit-btn">Завершити</button>
+            </div>
+
+            <div id="challenge-results" class="challenge-results">
+                <h3>Ваші результати</h3>
+                <div class="results-summary">
+                    <div class="result-metric">
+                        <span class="result-value" id="correct-answers">0</span>
+                        <span class="result-label">Правильні відповіді</span>
+                    </div>
+                    <div class="result-metric">
+                        <span class="result-value" id="time-taken">00:00</span>
+                        <span class="result-label">Витрачений час</span>
+                    </div>
+                </div>
+                <div class="results-feedback" id="challenge-feedback"></div>
+                <button id="restart-challenge" class="btn">Спробувати ще раз</button>
+            </div>
+
+            <div class="nav-buttons">
+                <button class="btn" id="prev-to-flashcards"><i class="fas fa-arrow-left"></i> Флешкартки</button>
+                <button class="btn" id="finish-lesson">Завершити урок</button>
+            </div>
         </div>
     </div>
+    <script src="~/js/lesson.js" asp-append-version="true" defer></script>
 </body>
 </html>
-
-<script>
-    document.getElementById('run-query').addEventListener('click', function () {
-        const query = document.getElementById('query-input').value;
-
-        fetch('/api/run-sql-query', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ query })
-        })
-        .then(response => response.json())
-        .then(data => {
-            const resultOutput = document.getElementById('result-output');
-            if (data.success) {
-                if (data.isCorrect) {
-                    resultOutput.textContent = "Ваш запит правильний!";
-                } else {
-                    resultOutput.textContent = "Ваш запит неправильний. Спробуйте ще раз.";
-                }
-                console.log("Результат виконання:", data.result);
-            } else {
-                resultOutput.textContent = `Помилка: ${data.error}`;
-            }
-        })
-        .catch(error => {
-            document.getElementById('result-output').textContent = `Сталася помилка: ${error}`;
-        });
-    });
-</script>
 
 
 
